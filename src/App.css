@@ -1,0 +1,46 @@
+@font-face {
+    font-family: heading;
+    src: url(assets/fonts/Bizmo\ Trial-Bold.ttf);
+}
+
+@font-face {
+    font-family: logo;
+    src: url(assets/fonts/mulaceno.ttf);
+}
+
+@font-face {
+    font-family: text;
+    src: url(assets/fonts/Biko_Regular.otf);
+}
+
+:root {
+    --dark: #020002;
+    --light-muted: #a8a8a8;
+    --dark-muted: #424242;
+    --backdrop: #dbe0e8;
+    --light-backdrop: #f5f8fd;
+}
+
+* {
+    font-family: 'text';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.custom-before::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0px;
+    height: 4px;
+    background: #000;
+    top: 50%;
+    transform: translate(0%, -50%);
+    transition-duration: .3s;
+}
+
+.custom-before:hover::before {
+    width: 100%;
+}
