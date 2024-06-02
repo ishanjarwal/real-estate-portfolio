@@ -2,7 +2,7 @@ import React from 'react'
 
 const StartNow = () => {
   return (
-    <div id='start-now' className='relative h-screen flex justify-center items-center'>
+    <div id='start-now' className='relative flex justify-center items-center' style={{ height: "min(100vh, 700px)" }}>
       <img
         src="https://a.storyblok.com/f/180614/1094x985/c75cd3331f/villa-side-view-render.jpg"
         alt=""

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div id='contact' className='relative min-h-screen bg-dark'>
+        <div id='contact' className='relative bg-dark' >
             <img
                 src="https://cms.interiorcompany.com/wp-content/uploads/2023/11/simple-home-design-Warm-grey-exteriors.png"
                 alt=""

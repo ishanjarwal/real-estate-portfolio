@@ -31,7 +31,7 @@ const Footer = () => {
     ]
 
     return (
-        <div className='min-h-screen bg-dark'>
+        <div className='bg-dark' >
             <div className='max-w-8xl mx-auto md:px-12 px-4 pt-32 pb-8'>
                 <div className='flex lg:flex-row flex-col items-center justify-between lg:space-y-0 space-y-4'>
                     <nav className='flex-1 flex md:flex-row flex-col space-x-2 md:space-y-0 space-y-2'>
@@ -57,7 +57,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <h1 className='font-logo text-white text-[30vw] text-center'>
+                <h1 className='font-logo text-white text-center' style={{fontSize:"min(30vw, 300px)"}}>
                     HAVN
                 </h1>
                 <div className='border-t border-b border-white flex justify-between items-center space-x-2 md:py-8 py-4 px-4'>

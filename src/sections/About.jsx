@@ -3,7 +3,7 @@ import { MdOutlineArrowOutward } from 'react-icons/md'
 
 const About = () => {
     return (
-        <div id='about' className='md:min-h-[calc(100vh-7rem)] min-h-[calc(100vh-5rem)] bg-white'>
+        <div id='about' className='bg-white'>
             <div className='relative max-w-8xl mx-auto md:px-12 px-4 pt-36 pb-36'>
                 <img
                     src="/section_switch_light.png"

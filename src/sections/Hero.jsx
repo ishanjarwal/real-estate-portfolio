@@ -5,7 +5,7 @@ import { FaArrowRightLong } from 'react-icons/fa6'
 const Hero = () => {
     return (
         <div>
-            <div className='h-[calc(100vh-80px)] max-w-8xl mx-auto lg:grid grid-cols-12 px-12 md:pt-12'>
+            <div className='max-w-8xl mx-auto lg:grid grid-cols-12 px-12 md:pt-12 pb-36'>
                 <div className='xl:col-span-8 col-span-7 pe-32 lg:pb-0 pb-12'>
                     <h1 className='xl:text-8xl text-5xl font-heading font-bold text-dark uppercase'>
                         Your Gateway to Perfect Homes
@@ -26,10 +26,10 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className='md:h-[calc(100vh-3rem)] h-[calc(100vh)] bg-dark'>
+            <div className='bg-dark'>
                 <div className='max-w-8xl mx-auto '>
                     <div className='relative md:px-12'>
-                        <div className='relative md:p-8 p-4 md:-top-36 -top-28 left-1/2 -translate-x-1/2 rounded-3xl bg-white w-full my-8 overflow-hidden'>
+                        <div className='relative md:p-8 p-4 md:-top-36 -top-28 left-1/2 -translate-x-1/2 rounded-3xl bg-white w-full overflow-hidden'>
                             <img
                                 src="https://images.adsttc.com/media/images/5fbc/0d02/63c0/17d6/2c00/06d3/newsletter/open-uri20201123-21108-foycjf.jpg?1606159609"
                                 alt=""

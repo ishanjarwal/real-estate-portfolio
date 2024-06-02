@@ -3,7 +3,7 @@ import { IoMdCheckmarkCircleOutline } from 'react-icons/io'
 
 const Features = () => {
   return (
-    <div id='features' className='md:min-h-[calc(100vh-7rem)] min-h-[calc(100vh-5rem)] bg-dark'>
+    <div id='features' className='bg-dark'>
       <div className='max-w-8xl mx-auto md:px-12 px-4 pt-32 pb-24'>
         <div className='flex lg:flex-row flex-col lg:space-y-0 space-y-4 lg:space-x-4 space-x-0 justify-between items-start'>
           <div className='flex-1'>
